@@ -1,0 +1,33 @@
+USE `test`;
+
+DROP TABLE IF EXISTS `notes`;
+CREATE TABLE `notes` (
+  id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  note_name VARCHAR(255) NOT NULL,
+  create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  is_performed BOOLEAN
+)
+  ENGINE = InnoDB
+  DEFAULT CHARACTER SET = utf8;
+
+/*INSERT INTO `notes` VALUES (1, 'Помыть кота', DEFAULT, TRUE);
+INSERT INTO `notes` VALUES (2, 'вынести мусор',DEFAULT , FALSE);*/
+/*INSERT INTO `notes` VALUES (3, 'make launch');
+INSERT INTO `notes` VALUES (4, 'покормить кота');
+INSERT INTO `notes` VALUES (5, 'сделать задание');
+INSERT INTO `notes` VALUES (6, 'сходить в магазин за продуктами');
+INSERT INTO `notes` VALUES (7, 'проверить почту');
+INSERT INTO `notes` VALUES (8, 'позвонить маме');
+INSERT INTO `notes` VALUES (9, 'стоматолог');
+INSERT INTO `notes` VALUES (10, 'забрать вещи из химчистки');
+INSERT INTO `notes` VALUES (11, 'сходить к парикмахеру');
+INSERT INTO `notes` VALUES (12, 'купить цветы для девушки');
+INSERT INTO `notes` VALUES (13, 'встретить гстей');
+INSERT INTO `notes` VALUES (14, 'вернуть долг');
+INSERT INTO `notes` VALUES (15, 'забрать посылку');
+INSERT INTO `notes` VALUES (16, 'сделать приборку');
+INSERT INTO `notes` VALUES (17, 'отвезти машину на ТО');
+INSERT INTO `notes` VALUES (18, 'собрание');
+INSERT INTO `notes` VALUES (19, 'забрать машину');
+INSERT INTO `notes` VALUES (20, 'месячные отчёты');
+INSERT INTO `notes` VALUES (21, 'Поздравить жену с юбилеем');*/

@@ -1,0 +1,6 @@
+ru\alvisid\notemanager\service\NoteServiceImpl.class
+ru\alvisid\notemanager\dao\NoteDao.class
+ru\alvisid\notemanager\service\NoteService.class
+ru\alvisid\notemanager\model\Note.class
+ru\alvisid\notemanager\controller\NoteController.class
+ru\alvisid\notemanager\dao\NoteDaoImpl.class
