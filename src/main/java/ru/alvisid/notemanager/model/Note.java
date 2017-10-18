@@ -7,7 +7,7 @@ import javax.persistence.*;
 @Table(name = "notes")
 public class Note {
     @Id
-    @Column(name = "id", insertable = false, updatable = false)
+    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
